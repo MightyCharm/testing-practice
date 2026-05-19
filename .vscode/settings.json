@@ -5,6 +5,7 @@
     "readme",
     "deps",
     "jest",
-    "capitalize"
+    "capitalize",
+    "reverseString"
   ]
 }
