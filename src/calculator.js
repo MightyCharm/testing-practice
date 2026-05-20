@@ -1,11 +1,3 @@
-function capitalize(word) {
-  return word[0].toUpperCase() + word.slice(1);
-}
-
-function reverseString(string) {
-  return string.split("").reverse().join("");
-}
-
 const calculator = {
   add(num1, num2) {
     return num1 + num2;
@@ -24,4 +16,4 @@ const calculator = {
   },
 };
 
-export { capitalize, reverseString, calculator };
+export { calculator };
