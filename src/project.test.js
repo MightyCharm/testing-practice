@@ -1,6 +1,7 @@
 import { capitalize, reverseString } from "./stringFunctions.js";
 import { calculator } from "./calculator.js";
 import { caesarCipher } from "./cipher.js";
+import { analyzeArray } from "./analyzeArray.js";
 
 // tests for capitalize function
 test('capitalizes first letter of "water" to "Water"', () => {
@@ -64,4 +65,25 @@ test('shift string "Hello, World!" with shift factor 3 to "Khoor, Zruog!"', () =
 
 test('shift string "a" with shift factor -4 to "w"', () => {
   expect(caesarCipher("a", -4)).toBe("w");
+});
+
+// tests for analyze array
+test("analyzeArray([1, 8, 3, 4, 2, 6]) results in obj.average = 4", () => {
+  const obj = analyzeArray([1, 8, 3, 4, 2, 6]);
+  expect(obj.average).toBe(4);
+});
+
+test("analyzeArray([1, 8, 3, 4, 2, 6]) results in obj.min = 1", () => {
+  const obj = analyzeArray([1, 8, 3, 4, 2, 6]);
+  expect(obj.min).toBe(1);
+});
+
+test("analyzeArray([1, 8, 3, 4, 2, 6]) results in obj.max = 8", () => {
+  const obj = analyzeArray([1, 8, 3, 4, 2, 6]);
+  expect(obj.max).toBe(8);
+});
+
+test("analyzeArray([1, 8, 3, 4, 2, 6]) results in obj.length = 6", () => {
+  const obj = analyzeArray([1, 8, 3, 4, 2, 6]);
+  expect(obj.length).toBe(6);
 });
