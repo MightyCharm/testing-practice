@@ -16,11 +16,15 @@ It's the first project that introduces Test Driven Development using Jest. It in
 ## ⚙️ Tech Stack
 
 <p align="left">
-  <img src="https://cdn.simpleicons.org/html5" width="40" alt="HTML" />
-  <img src="https://cdn.simpleicons.org/css" width="40" alt="CSS" />
   <img src="https://cdn.simpleicons.org/javascript" width="40" alt="JavaScript" />
   <img src="https://cdn.simpleicons.org/webpack" width="40" alt="Webpack" />
   <img src="https://cdn.simpleicons.org/npm" width="40" alt="npm" />
+  <img src="https://cdn.simpleicons.org/jest" width=40 alt="jest">
 </p>
 
 ## 📸 Screenshots
+
+<figure>
+  <img src="./images/solution_1.png" width="800" height="auto" alt="Jest passing in terminal" />
+  <figcaption>Terminal Output</figcaption>
+</figure>
