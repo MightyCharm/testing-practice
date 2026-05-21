@@ -1,17 +1,17 @@
-# project-name
+# Project: Testing Practice
 
-Project: Project Name (The Odin Project: Course Name)
+The Odin Project: JavaScript Course
 
 ## ℹ️ Description
 
-- Explain in short what program does.
+It's the first project that introduces Test Driven Development using Jest. It includes very basic examples.
 
 ## ✅ Features
 
-- feature 1
-- feature 2
-- feature 3
-- feature 4
+- Capitalize and reverse strings
+- Basic Calculator with methods for add , subtract, multiply, divide
+- Caesar Cipher with postive and negative shifting
+- Array analyzer for average, min, max, and length
 
 ## ⚙️ Tech Stack
 
@@ -23,21 +23,4 @@ Project: Project Name (The Odin Project: Course Name)
   <img src="https://cdn.simpleicons.org/npm" width="40" alt="npm" />
 </p>
 
-## 🖥️ Live Demo
-
 ## 📸 Screenshots
-
-## 🔧 Setup
-
-1. Clone the repo
-2. Run `npm install`
-3. Run `npm run dev`
-4. Open `http://localhost:8080`
-
-## 🚀 Deploy
-
-- `git checkout gh-pages && git merge main --no-edit`
-- `npm run build`
-- `git add dist -f && git commit -m "Deployment commit"`
-- `npm run deploy`
-- `git checkout main`
