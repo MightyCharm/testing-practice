@@ -43,7 +43,7 @@ test("multiplies 3 and 4 to equal 12", () => {
 });
 
 // tests for caeser cipher
-test('shift string "," with shift factor 1 to ","', () => {
+test('does not shift punctuation like ","', () => {
   expect(caesarCipher(",", 1)).toBe(",");
 });
 
@@ -68,22 +68,22 @@ test('shift string "a" with shift factor -4 to "w"', () => {
 });
 
 // tests for analyze array
-test("analyzeArray([1, 8, 3, 4, 2, 6]) results in obj.average = 4", () => {
+test("analyzeArray([1, 8, 3, 4, 2, 6]) returns average of 4", () => {
   const obj = analyzeArray([1, 8, 3, 4, 2, 6]);
   expect(obj.average).toBe(4);
 });
 
-test("analyzeArray([1, 8, 3, 4, 2, 6]) results in obj.min = 1", () => {
+test("analyzeArray([1, 8, 3, 4, 2, 6]) returns min of 1", () => {
   const obj = analyzeArray([1, 8, 3, 4, 2, 6]);
   expect(obj.min).toBe(1);
 });
 
-test("analyzeArray([1, 8, 3, 4, 2, 6]) results in obj.max = 8", () => {
+test("analyzeArray([1, 8, 3, 4, 2, 6]) returns max of 8", () => {
   const obj = analyzeArray([1, 8, 3, 4, 2, 6]);
   expect(obj.max).toBe(8);
 });
 
-test("analyzeArray([1, 8, 3, 4, 2, 6]) results in obj.length = 6", () => {
+test("analyzeArray([1, 8, 3, 4, 2, 6]) returns length of 6", () => {
   const obj = analyzeArray([1, 8, 3, 4, 2, 6]);
   expect(obj.length).toBe(6);
 });
